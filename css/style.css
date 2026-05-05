@@ -1,7 +1,7 @@
 /* ===== BetSala Chile - Brand Styles v2 (style fixes) ===== */
 :root{
   --bg:#0d1029;--bg-2:#15193d;--bg-3:#1c2150;
-  --accent:#e31e43;--accent-2:#a71632;--accent-soft:#ff3a64;
+  --accent:#e31e43;--accent-2:#a71632;--accent-soft:#ff6b8e;
   --gold:#cbf93e;--text:#ffffff;--text-mute:#b8bcd6;
   --border:rgba(255,255,255,.08);--radius:14px;--max:1280px;
   --shadow:0 10px 30px rgba(0,0,0,.35);
@@ -283,3 +283,18 @@ footer a:hover{color:var(--accent-soft)}
   .hero-cta{flex-direction:column;align-items:stretch}
   .hero-cta .btn{text-align:center}
 }
+
+/* === Accessibility fixes for PageSpeed === */
+main{display:block}
+.foot-disclaimer{color:#9094b3}
+footer a{color:#c0c4dc}
+footer a:hover{color:var(--accent-soft)}
+.foot-bottom{color:#c0c4dc}
+.crash-card .content p{color:#d4d8eb}
+.bono-card p{color:#c0c4dc}
+.section-head p{color:#c0c4dc}
+.app ul.features li{color:#e6e8f5}
+.logo img{height:42px;width:auto}
+.foot-logo img{height:38px;width:auto}
+
+.foot-h{color:#fff;font-size:14px;text-transform:uppercase;margin-bottom:14px;letter-spacing:.5px;font-weight:700}
